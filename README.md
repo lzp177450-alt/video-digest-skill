@@ -21,7 +21,7 @@
 
 ```bash
 # 1. 装到 agent 的技能目录（目录名保持 video-digest）
-git clone https://github.com/<you>/video-digest-skill.git ~/.agents/skills/video-digest
+git clone https://github.com/lzp177450-alt/video-digest-skill.git ~/.agents/skills/video-digest
 
 # 2. 装本地转写依赖（可选，只用云端可以跳过）
 cd ~/.agents/skills/video-digest/scripts && npm install
