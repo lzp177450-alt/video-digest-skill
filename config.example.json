@@ -1,0 +1,32 @@
+{
+  "outputDir": "",
+  "ffmpeg": {
+    "path": ""
+  },
+  "asr": {
+    "backend": "auto",
+    "lang": "auto",
+    "cloud": {
+      "provider": "groq",
+      "baseURL": "",
+      "model": "",
+      "apiKey": "",
+      "apiKeyEnv": "",
+      "chunkSeconds": 600
+    },
+    "local": {
+      "modelDir": "",
+      "threads": 4
+    }
+  },
+  "frames": {
+    "count": 12,
+    "maxWidth": 1280,
+    "sceneThreshold": 10
+  },
+  "url": {
+    "maxHeight": 720,
+    "proxy": "",
+    "command": ["uvx", "yt-dlp"]
+  }
+}

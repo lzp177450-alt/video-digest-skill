@@ -1,0 +1,8 @@
+{
+  "name": "video-digest-scripts",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "sherpa-onnx-node": "^2.0.1"
+  }
+}

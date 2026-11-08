@@ -1,0 +1,8 @@
+node_modules/
+models/
+config.json
+.video/
+*.part
+.DS_Store
+
+scripts/package-lock.json
